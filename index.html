@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="fatApp">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="mainHead">Fat Earth</h1>
+    <div class="navWrapper">
+        <ul class="navBar">
+            <li><a href = "#!/home">Home</a></li>
+            <li><a href = "#!/tv">FatEarth TV/News</a></li>
+            <li><a href = "#!/film">FatEarth Film</a></li>
+            <li><a href = "#!/music">FatEarth Music</a></li>
+            <li><a href = "#!/team">FatEarth Team</a></li>
+        </ul>
+    </div>
+    <ng-view></ng-view>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-route.min.js"></script>
+    <script src="module.js"></script>
+    <script src="components/home.js"></script>
+    <script src="components/fatEarthTv.js"></script>
+    <script src="components/fatEarthFilm.js"></script>
+    <script src="components/fatEarthMusic.js"></script>
+    <script src="components/fatEarthTeam.js"></script>
+    <script src="config.js"></script>
+</body>
+</html>
