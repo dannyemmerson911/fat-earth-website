@@ -4,10 +4,17 @@ body {
 
 .mainHead {
     font-family: 'Permanent Marker', cursive;
-    font-size: 5vw;
-    color: #59f442;
+    font-size: 7vw;
     display: flex;
     justify-content: center;
+    -webkit-text-stroke: 3px white;
+    color: #black;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
 
 .navBar {
@@ -20,19 +27,43 @@ body {
     justify-content: space-around; 
 }
 
+.navWrapper {
+    margin-bottom: 50px;
+    margin-top: -40px;
+}
+
 li:hover {
     cursor: pointer;
 }
 
 .tvNewsPage, .musicPage {
-    margin: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.headlines {
+    color: white;
+    font-family: 'Bungee', cursive;
+    align-content: center;
+    font-weight: lighter;
+}
+
+.quotes {
+    font-family: 'Waiting for the Sunrise', cursive;
+    color: white;
+}
+
+.sources {
+    color: white;
+    font-family: 'Waiting for the Sunrise', cursive;
+    align-content: right;
+}
+
 iframe {
     margin: 15px;
+    border: solid white 7px;
+    border-radius: 20px;
 }
 
 /* .musicPage {
