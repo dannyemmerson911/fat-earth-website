@@ -9,4 +9,16 @@
         $('.pageToggle').hide();
         $('.tvNewsPage').show(); 
     })
+    $('.film').on('click', function(){
+        $('.pageToggle').hide();
+        $('.filmPage').show();
+    })
+    $('.music').on('click', function(){
+        $('.pageToggle').hide();
+        $('.musicPage').show();
+    })
+    $('.team').on('click', function(){
+        $('.pageToggle').hide();
+        $('.teamPage').show();
+    })
 }());
