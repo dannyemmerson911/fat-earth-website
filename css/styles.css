@@ -1,0 +1,16 @@
+.mainHead {
+    display: flex;
+    justify-content: center;
+}
+
+.navBar {
+    margin: 10px;
+    list-style: none;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around; 
+}
+
+li:hover {
+    cursor: pointer;
+}
