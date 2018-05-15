@@ -7,18 +7,26 @@
     })
     $('.tvNews').on('click', function(){
         $('.pageToggle').hide();
-        $('.tvNewsPage').show(); 
+        $('.tvNewsPage').animate({
+            height: 'toggle'
+        }, 600); 
     })
     $('.film').on('click', function(){
         $('.pageToggle').hide();
-        $('.filmPage').show();
+        $('.filmPage').animate({
+            height: 'toggle'
+        }, 600);
     })
     $('.music').on('click', function(){
         $('.pageToggle').hide();
-        $('.musicPage').show();
+        $('.musicPage').animate({
+            height: 'toggle'
+        }, 600);
     })
     $('.team').on('click', function(){
         $('.pageToggle').hide();
-        $('.teamPage').show();
+        $('.teamPage').animate({
+            height: 'toggle'
+    }, 600);
     })
 }());
