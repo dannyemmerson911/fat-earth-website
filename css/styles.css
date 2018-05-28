@@ -3,23 +3,15 @@ body {
 }
 
 .mainHead {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 7vw;
     display: flex;
     justify-content: center;
-    -webkit-text-stroke: 3px rgb(8, 196, 46);
-    color: black;
-    text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+    margin-bottom: 100px;
 }
 
 .navBar {
+    font-size: 30px;
     color: #59f442;
-    font-family: 'Bungee', cursive;
+    font-family: 'Kanit', sans-serif;
     margin: 10px;
     list-style: none;
     display: flex; 
@@ -33,7 +25,11 @@ body {
 }
 
 li:hover {
+    font-size: 35px;
     cursor: pointer;
+    text-shadow: 3px 3px rgb(1, 59, 111);
+    /* color: white; */
+    transition: 1000ms;
 }
 
 .tvNewsPage, .header {
@@ -46,7 +42,7 @@ li:hover {
 
 .headlines {
     color: white;
-    font-family: 'Bungee', cursive;
+    font-family: 'Kanit', sans-serif;
     align-content: center;
     font-weight: lighter;
 }
