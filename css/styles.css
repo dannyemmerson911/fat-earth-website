@@ -5,31 +5,20 @@ body {
 .mainHead {
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+.icons {
+    border: solid white 5px;
+    border-radius: 125px;
 }
 
 .navBar {
-    font-size: 30px;
-    color: #59f442;
-    font-family: 'Kanit', sans-serif;
     margin: 10px;
     list-style: none;
     display: flex; 
     flex-direction: row;
     justify-content: space-around; 
-}
-
-.navWrapper {
-    margin-bottom: 50px;
-    margin-top: -40px;
-}
-
-li:hover {
-    font-size: 35px;
-    cursor: pointer;
-    text-shadow: 3px 3px rgb(1, 59, 111);
-    /* color: white; */
-    transition: 1000ms;
 }
 
 .tvNewsPage, .header {
